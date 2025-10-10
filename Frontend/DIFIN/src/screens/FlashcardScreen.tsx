@@ -1,7 +1,7 @@
 // src/screens/FlashcardScreen.tsx
 import React, { useEffect, useState } from 'react';
 import { View, ActivityIndicator, FlatList, StyleSheet, Text } from 'react-native';
-import FlashcardCard from '../components/FlashcardCard';
+import FlashcardCard from '../components/Flashcard';
 import { API_HOST } from '../services/api';
 
 type Flashcard = { id: number; english_word: string; vietnamese_meaning: string; example_sentence?: string };
